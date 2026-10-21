@@ -169,7 +169,7 @@
 },
 "317809458": {
 "name": "LiveATC Air Radio",
-"price": 4.99,
+"price": 5.99,
 "first_seen": "2026-10-13",
 "last_checked": "2026-10-21",
 "misses": 0
@@ -1249,6 +1249,20 @@
 "name": "608 Practice",
 "price": 12.99,
 "first_seen": "2026-10-20",
+"last_checked": "2026-10-21",
+"misses": 0
+},
+"6822194774": {
+"name": "TypeDraw",
+"price": 4.99,
+"first_seen": "2026-10-21",
+"last_checked": "2026-10-21",
+"misses": 0
+},
+"360256797": {
+"name": "10bii Financial Calculator",
+"price": 5.99,
+"first_seen": "2026-10-21",
 "last_checked": "2026-10-21",
 "misses": 0
 }
