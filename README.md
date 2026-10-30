@@ -292,13 +292,12 @@ There are two templates, on purpose:
   wrapper (title, stats line, cards, footer) with no nav/sidebar chrome,
   because it has to survive being rendered by Gmail/Outlook/etc., which
   don't reliably support modern CSS.
-- **`build_preview_page_html()`** - what `preview.html` uses. A fuller
-  app-shell UI - icon sidebar, top search bar, dashboard-style stat
-  cards, a responsive two-column grid - since a browser has none of an
-  email client's constraints. Individual app cards come from the shared
-  `render_app_card_html()`, the same function `build_html()` uses, so
-  the cards themselves are guaranteed identical between the two - only
-  the surrounding chrome (sidebar/topbar/grid vs. plain stack) differs.
+- **`build_preview_page_html()`** - what `preview.html` uses. A plain
+  top bar, a row of counts and a responsive two-column grid, in the same
+  look as the other tuongphanbase pages. Individual app cards come from the
+  shared `render_app_card_html()`, the same function `build_html()` uses,
+  so the cards themselves are guaranteed identical between the two - only
+  the surrounding chrome (top bar/counts/grid vs. plain stack) differs.
 
 ## Icon hosting
 

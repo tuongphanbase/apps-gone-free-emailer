@@ -857,20 +857,22 @@ def price_badge(price_label):
 # guessed dark-mode-with-lime-accent from search-result thumbnails, which
 # turned out backwards on both counts. Kept as named constants so this
 # stays easy to retune if it needs correcting again.
-BG = "#F7F8FA"
+BG = "#F4F5F7"
 CARD_BG = "#FFFFFF"
-CARD_BORDER = "#E5E7EB"
-TEXT_PRIMARY = "#111827"
-TEXT_SECONDARY = "#6B7280"
+CARD_BORDER = "#E2E4E8"
+TEXT_PRIMARY = "#1D2129"
+TEXT_SECONDARY = "#596170"
 ACCENT = "#3B5BDB"       # buttons, links, active states - matches their "Run now" blue
 ACCENT_TEXT = "#FFFFFF"  # text on top of a solid ACCENT fill
-STAR_COLOR = "#F5A623"   # star ratings stay amber/gold regardless of brand color - near-universal convention
-SUCCESS_BG = "#DCFCE7"   # status pill background, matches their green "OK" badges
-SUCCESS_TEXT = "#15803D"  # status pill text
+STAR_COLOR = "#D9930D"   # star ratings stay amber/gold regardless of brand color - near-universal convention
+SUCCESS_BG = "#E5F3EB"   # status pill background, matches their green "OK" badges
+SUCCESS_TEXT = "#1A7F4B"  # status pill text
+# Same font list as the other bots' emails and the dashboard.
+FONT = "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif"
 
 
 def source_tag_html(source):
-    return f"<span style=\"color:{TEXT_SECONDARY};font-size:11px;text-transform:uppercase;letter-spacing:.04em;\">via {escape(source)}</span>"
+    return f"<span style=\"color:{TEXT_SECONDARY};font-size:12px;\">via {escape(source)}</span>"
 
 
 def render_app_card_html(app, card_style_extra=""):
@@ -886,24 +888,24 @@ def render_app_card_html(app, card_style_extra=""):
         )
     icon_html = (
         f"<img src='{escape(app['icon'])}' width='64' height='64' "
-        f"style='border-radius:16px;display:block' alt=''>"
+        f"style='border-radius:14px;display:block' alt=''>"
         if app.get("icon") else ""
     )
     badge, badge_sub = price_badge(app["price_label"])
     genre_bits = " · ".join(x for x in [app.get("developer", ""), app.get("genre", "")] if x)
     return f"""
-<table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;max-width:680px;margin:0 0 16px;background:{CARD_BG};border:1px solid {CARD_BORDER};border-radius:14px;box-shadow:0 1px 2px rgba(16,24,40,0.04);{card_style_extra}">
+<table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;max-width:680px;margin:0 0 12px;background:{CARD_BG};border:1px solid {CARD_BORDER};border-radius:8px;{card_style_extra}">
   <tr>
-    <td style="width:88px;padding:20px 0 20px 20px;vertical-align:top;">{icon_html}</td>
-    <td style="padding:20px;vertical-align:top;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;">
-      <div style="font-size:16px;font-weight:700;letter-spacing:-.01em;">
+    <td style="width:80px;padding:16px 0 16px 16px;vertical-align:top;">{icon_html}</td>
+    <td style="padding:16px;vertical-align:top;font-family:{FONT};">
+      <div style="font-size:15px;font-weight:600;">
         <a href="{escape(app['url'])}" style="color:{TEXT_PRIMARY};text-decoration:none;">{escape(app['name'])}</a>
       </div>
       <div style="font-size:13px;color:{TEXT_SECONDARY};margin:4px 0 8px;">{escape(genre_bits)}</div>
       <div style="font-size:13px;margin-bottom:8px;">{rating_html}</div>
       <div style="font-size:13px;color:{TEXT_SECONDARY};line-height:1.5;">{escape(truncate(app.get('description', '')))}</div>
-      <div style="margin-top:14px;">
-        <span style="background:{SUCCESS_BG};color:{SUCCESS_TEXT};font-weight:600;padding:3px 10px;border-radius:6px;font-size:12px;">{badge}</span>
+      <div style="margin-top:12px;">
+        <span style="background:{SUCCESS_BG};color:{SUCCESS_TEXT};font-weight:600;padding:2px 9px;border-radius:999px;font-size:12px;">{badge}</span>
         <span style="color:{TEXT_SECONDARY};margin-left:8px;font-size:12px;">{escape(badge_sub)}</span>
         <span style="float:right;">{source_tag_html(app.get('source', ''))}</span>
       </div>
@@ -921,13 +923,13 @@ def build_html(new_apps, timestamp, stats):
     return f"""\
 <html>
 <head><meta name="color-scheme" content="light"></head>
-<body style="margin:0; padding:32px 20px; background:{BG}; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;">
-  <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;max-width:720px;margin:0 auto;">
-    <tr><td>
-      <h1 style="color:{TEXT_PRIMARY};font-size:28px;font-weight:800;letter-spacing:-.02em;margin:0 0 8px;">iOS Apps Gone Free</h1>
-      <p style="color:{TEXT_SECONDARY};font-size:14px;margin:0 0 24px;">Checked {escape(timestamp)} &middot; {stats.get('scraped', 0)} from iGeeksBlog/AppDovo + {stats.get('chart', 0)} from Apple's top-paid chart &middot; {stats['new']} new &middot; {stats['repeat']} already sent within the last {COOLDOWN_DAYS} days</p>
+<body style="margin:0; padding:24px 12px; background:{BG}; font-family:{FONT}; color:{TEXT_PRIMARY};">
+  <table role="presentation" cellpadding="0" cellspacing="0" style="width:100%;max-width:680px;margin:0 auto;">
+    <tr><td style="font-family:{FONT};">
+      <div style="color:{TEXT_PRIMARY};font-size:20px;font-weight:600;line-height:1.3;margin:0 0 2px;">iOS Apps Gone Free</div>
+      <p style="color:{TEXT_SECONDARY};font-size:13px;margin:0 0 16px;">Checked {escape(timestamp)} &middot; {stats.get('scraped', 0)} from iGeeksBlog/AppDovo + {stats.get('chart', 0)} from Apple's top-paid chart &middot; {stats['new']} new &middot; {stats['repeat']} already sent within the last {COOLDOWN_DAYS} days</p>
       {cards}
-      <p style="color:{TEXT_SECONDARY}; font-size:12px; line-height:1.6; margin-top:28px;">
+      <p style="color:{TEXT_SECONDARY}; font-size:12px; line-height:1.6; margin-top:20px;">
         Sources: <a href="{escape(IGEEKSBLOG_URL)}" style="color:{ACCENT};">iGeeksBlog</a> and
         <a href="{escape(APPDOVO_URL)}" style="color:{ACCENT};">AppDovo</a> (both hand-curated/scraped) and
         Apple's own top-paid chart feed (auto-discovered, tracked for price drops) &middot;
@@ -968,10 +970,9 @@ def build_plain_text(new_apps, timestamp, stats):
 
 
 def build_preview_page_html(new_apps, timestamp, stats):
-    """A standalone preview webpage - icon sidebar + top search bar + main
-    content area, modeled on a real screenshot of the actual product (an
-    app-shell layout, not a marketing landing page - that was the wrong
-    reference the first time around). This is NOT what gets emailed (see
+    """A standalone preview webpage - a plain top bar, a row of counts and the
+    cards in two columns, in the same look as the other tuongphanbase pages.
+    This is NOT what gets emailed (see
     build_html() for that, which stays a plain, conservative wrapper for
     email-client compatibility) - it's a nicer way to browse the same
     underlying cards in an actual browser. The cards themselves come from
@@ -986,24 +987,12 @@ def build_preview_page_html(new_apps, timestamp, stats):
     else:
         card_grid = f"<p style='color:{TEXT_SECONDARY};font-size:14px;'>Nothing new since the last check.</p>"
 
-    stat_cards = "".join(f"""
-    <div style="background:{CARD_BG};border:1px solid {CARD_BORDER};border-radius:12px;padding:16px 20px;flex:1;min-width:130px;">
-      <div style="font-size:26px;font-weight:700;color:{TEXT_PRIMARY};letter-spacing:-.02em;">{value}</div>
-      <div style="font-size:12px;color:{TEXT_SECONDARY};margin-top:2px;">{label}</div>
-    </div>""" for value, label in [
+    facts = "".join(f"""
+      <div class="fact"><div class="k">{label}</div><div class="v">{value}</div></div>""" for value, label in [
         (stats["new"], "New today"),
         (stats.get("scraped", 0), "From iGeeksBlog/AppDovo"),
         (stats.get("chart", 0), "From Apple charts"),
-        (f"{COOLDOWN_DAYS}d", "Repeat cooldown"),
-    ])
-
-    sidebar_icons = "".join(f"""
-    <div style="display:flex;flex-direction:column;align-items:center;gap:4px;padding:10px 8px;border-radius:10px;{'background:#EEF1FF;color:' + ACCENT if active else 'color:' + TEXT_SECONDARY};">
-      <div style="font-size:18px;line-height:1;">{icon}</div>
-      <div style="font-size:10px;">{label}</div>
-    </div>""" for icon, label, active in [
-        ("&#8962;", "Home", False), ("&#128229;", "Digest", True),
-        ("&#128279;", "Sources", False), ("&#9881;", "Settings", False),
+        (f"{COOLDOWN_DAYS} days", "Repeat cooldown"),
     ])
 
     return f"""\
@@ -1015,50 +1004,37 @@ def build_preview_page_html(new_apps, timestamp, stats):
 <title>iOS Apps Gone Free - Preview</title>
 <style>
   * {{ box-sizing: border-box; }}
-  body {{ margin:0; background:{BG}; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif; color:{TEXT_PRIMARY}; }}
-  .shell {{ display:flex; min-height:100vh; }}
-  .sidebar {{ width:76px; background:{CARD_BG}; border-right:1px solid {CARD_BORDER}; padding:16px 8px; display:flex; flex-direction:column; align-items:center; gap:6px; flex-shrink:0; }}
-  .sidebar-logo {{ width:32px; height:32px; border-radius:8px; background:{ACCENT}; color:{ACCENT_TEXT}; display:flex; align-items:center; justify-content:center; font-weight:800; margin-bottom:12px; }}
-  .main {{ flex:1; min-width:0; }}
-  .topbar {{ display:flex; align-items:center; justify-content:space-between; padding:14px 28px; background:{CARD_BG}; border-bottom:1px solid {CARD_BORDER}; }}
-  .topbar-brand {{ display:flex; align-items:center; gap:10px; font-weight:800; font-size:15px; }}
-  .search {{ flex:1; max-width:420px; margin:0 24px; padding:9px 14px; background:{BG}; border:1px solid {CARD_BORDER}; border-radius:8px; color:{TEXT_SECONDARY}; font-size:13px; display:flex; justify-content:space-between; }}
-  .topbar-badge {{ background:{SUCCESS_BG}; color:{SUCCESS_TEXT}; font-weight:700; font-size:11px; padding:4px 10px; border-radius:6px; }}
-  .content {{ max-width:900px; margin:0 auto; padding:32px 28px 56px; }}
-  .content h1 {{ font-size:24px; font-weight:700; letter-spacing:-.02em; margin:0 0 6px; }}
-  .content > p {{ color:{TEXT_SECONDARY}; font-size:14px; margin:0 0 24px; }}
-  .stats-row {{ display:flex; gap:12px; flex-wrap:wrap; margin-bottom:32px; }}
-  .grid {{ column-count:2; column-gap:16px; }}
-  @media (max-width:720px) {{ .grid {{ column-count:1; }} .sidebar {{ display:none; }} .search {{ display:none; }} }}
-  .footer {{ max-width:900px; margin:0 auto; padding:24px 28px 0; color:{TEXT_SECONDARY}; font-size:12px; line-height:1.6; border-top:1px solid {CARD_BORDER}; margin-top:8px; }}
+  body {{ margin:0; background:{BG}; font-family:{FONT}; font-size:14px; color:{TEXT_PRIMARY}; }}
+  .appbar {{ display:flex; align-items:center; gap:12px; height:52px; padding:0 20px; background:{CARD_BG}; border-bottom:1px solid {CARD_BORDER}; }}
+  .appbar b {{ font-size:15px; font-weight:600; }}
+  .appbar span {{ font-size:13px; color:{TEXT_SECONDARY}; }}
+  .content {{ max-width:900px; margin:0 auto; padding:20px 24px 48px; }}
+  .content h1 {{ font-size:20px; font-weight:600; margin:0 0 2px; }}
+  .content > p {{ color:{TEXT_SECONDARY}; font-size:13px; margin:0 0 16px; }}
+  .facts {{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); background:{CARD_BG}; border:1px solid {CARD_BORDER}; border-radius:8px; margin-bottom:16px; }}
+  .fact {{ padding:12px 16px; border-left:1px solid {CARD_BORDER}; }}
+  .fact:first-child {{ border-left:none; }}
+  .fact .k {{ font-size:12px; color:{TEXT_SECONDARY}; }}
+  .fact .v {{ font-size:18px; font-weight:600; margin-top:2px; }}
+  .grid {{ column-count:2; column-gap:12px; }}
+  @media (max-width:720px) {{ .grid {{ column-count:1; }} .facts {{ grid-template-columns:1fr 1fr; }} .fact:nth-child(3) {{ border-left:none; }} .fact:nth-child(n+3) {{ border-top:1px solid {CARD_BORDER}; }} }}
+  .footer {{ color:{TEXT_SECONDARY}; font-size:12px; line-height:1.6; border-top:1px solid {CARD_BORDER}; margin-top:8px; padding-top:16px; }}
   .footer a {{ color:{ACCENT}; }}
 </style>
 </head>
 <body>
-  <div class="shell">
-    <div class="sidebar">
-      <div class="sidebar-logo">A</div>
-      {sidebar_icons}
-    </div>
-    <div class="main">
-      <div class="topbar">
-        <div class="topbar-brand">Apps Gone Free</div>
-        <div class="search"><span>Search apps...</span><span>&#8984;K</span></div>
-        <div class="topbar-badge">PREVIEW</div>
-      </div>
-      <div class="content">
-        <h1>Today's digest</h1>
-        <p>Checked {escape(timestamp)} &middot; {stats['new']} new since the last check, {stats['repeat']} already sent within the last {COOLDOWN_DAYS} days.</p>
-        <div class="stats-row">{stat_cards}</div>
-        <div class="grid">{card_grid}</div>
-        <div class="footer">
-          This is a local preview generated by <code>python apps_gone_free_emailer.py preview</code> from
-          sample data - not a real digest. The cards above use the exact same rendering as the real email;
-          only this sidebar/topbar chrome is preview-only, since actual emails don't have navigation. Sources:
-          <a href="{escape(IGEEKSBLOG_URL)}">iGeeksBlog</a>, <a href="{escape(APPDOVO_URL)}">AppDovo</a>, and
-          Apple's top-paid chart feed, all cross-checked against Apple's iTunes Lookup API.
-        </div>
-      </div>
+  <div class="appbar"><b>Apps Gone Free</b><span>Local preview</span></div>
+  <div class="content">
+    <h1>Today's digest</h1>
+    <p>Checked {escape(timestamp)} &middot; {stats['new']} new since the last check, {stats['repeat']} already sent within the last {COOLDOWN_DAYS} days.</p>
+    <div class="facts">{facts}</div>
+    <div class="grid">{card_grid}</div>
+    <div class="footer">
+      This is a local preview generated by <code>python apps_gone_free_emailer.py preview</code> from
+      sample data - not a real digest. The cards above use the exact same rendering as the real email;
+      only the bar at the top is preview-only. Sources:
+      <a href="{escape(IGEEKSBLOG_URL)}">iGeeksBlog</a>, <a href="{escape(APPDOVO_URL)}">AppDovo</a>, and
+      Apple's top-paid chart feed, all cross-checked against Apple's iTunes Lookup API.
     </div>
   </div>
 </body>
@@ -1235,14 +1211,13 @@ def cmd_send():
 
 
 def cmd_preview():
-    """Generates preview.html (a full sidebar/topbar/grid webpage, see
+    """Generates preview.html (a top bar, counts and a two-column grid, see
     build_preview_page_html()) and preview.txt (build_plain_text(), same
     as a real email) from sample data. The individual app cards on
     preview.html come from render_app_card_html() - the exact same
     function build_html() uses for real emails - so a card can never look
     cosmetically different here than it would in an actual email; only
-    the surrounding sidebar/topbar/grid chrome is preview-only, since real
-    emails don't have navigation bars. Sample apps mix all three sources
+    the surrounding bar/counts/grid chrome is preview-only. Sample apps mix all three sources
     and both price labels on purpose, to show the visual variety a real
     digest can have. Doesn't touch state, doesn't send anything, doesn't
     hit the network."""
