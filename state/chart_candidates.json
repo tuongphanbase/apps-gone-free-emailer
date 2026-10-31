@@ -1100,7 +1100,7 @@
 },
 "6818992574": {
 "name": "Open Screen Sharing",
-"price": 0.99,
+"price": 1.99,
 "first_seen": "2026-10-17",
 "last_checked": "2026-10-31",
 "misses": 0
@@ -1529,6 +1529,13 @@
 "name": "Wider - Fullscreen Browsing",
 "price": 2.99,
 "first_seen": "2026-10-30",
+"last_checked": "2026-10-31",
+"misses": 0
+},
+"6761114951": {
+"name": "JustinGuitar Note Trainer",
+"price": 4.99,
+"first_seen": "2026-10-31",
 "last_checked": "2026-10-31",
 "misses": 0
 }
