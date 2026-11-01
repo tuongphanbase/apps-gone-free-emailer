@@ -1527,7 +1527,7 @@
 },
 "6824686276": {
 "name": "Wider - Fullscreen Browsing",
-"price": 0.0,
+"price": 1.99,
 "first_seen": "2026-10-30",
 "last_checked": "2026-11-01",
 "misses": 0
@@ -1557,6 +1557,27 @@
 "name": "Materia - Additive Synth",
 "price": 9.99,
 "first_seen": "2026-10-31",
+"last_checked": "2026-11-01",
+"misses": 0
+},
+"6822695409": {
+"name": "Play Music Theory Games",
+"price": 1.99,
+"first_seen": "2026-11-01",
+"last_checked": "2026-11-01",
+"misses": 0
+},
+"6472380172": {
+"name": "Kino - Pro Video Camera",
+"price": 9.99,
+"first_seen": "2026-11-01",
+"last_checked": "2026-11-01",
+"misses": 0
+},
+"639343132": {
+"name": "iConnectHue for Philips Hue",
+"price": 3.99,
+"first_seen": "2026-11-01",
 "last_checked": "2026-11-01",
 "misses": 0
 }
