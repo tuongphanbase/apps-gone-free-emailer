@@ -316,7 +316,7 @@
 },
 "1140451547": {
 "name": "Shot Tracer",
-"price": 5.99,
+"price": 0.0,
 "first_seen": "2026-10-13",
 "last_checked": "2026-11-01",
 "misses": 0
@@ -1527,7 +1527,7 @@
 },
 "6824686276": {
 "name": "Wider - Fullscreen Browsing",
-"price": 1.99,
+"price": 0.0,
 "first_seen": "2026-10-30",
 "last_checked": "2026-11-01",
 "misses": 0
@@ -1577,6 +1577,20 @@
 "639343132": {
 "name": "iConnectHue for Philips Hue",
 "price": 3.99,
+"first_seen": "2026-11-01",
+"last_checked": "2026-11-01",
+"misses": 0
+},
+"6814971826": {
+"name": "SharpStop Depth of Field Calc",
+"price": 4.99,
+"first_seen": "2026-11-01",
+"last_checked": "2026-11-01",
+"misses": 0
+},
+"6827677447": {
+"name": "Duo Fold Counter",
+"price": 0.99,
 "first_seen": "2026-11-01",
 "last_checked": "2026-11-01",
 "misses": 0
