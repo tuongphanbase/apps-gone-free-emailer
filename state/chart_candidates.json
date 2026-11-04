@@ -743,7 +743,7 @@
 },
 "6822695409": {
 "name": "Play Music Theory Games",
-"price": 0.99,
+"price": 1.99,
 "first_seen": "2026-11-01",
 "last_checked": "2026-11-04",
 "misses": 0
@@ -1360,6 +1360,55 @@
 "1519508653": {
 "name": "Nomad Sculpt",
 "price": 19.99,
+"first_seen": "2026-11-04",
+"last_checked": "2026-11-04",
+"misses": 0
+},
+"6828573950": {
+"name": "Fold by Fold",
+"price": 0.99,
+"first_seen": "2026-11-04",
+"last_checked": "2026-11-04",
+"misses": 0
+},
+"6746705608": {
+"name": "AutoSnore: Snoring Recorder",
+"price": 4.99,
+"first_seen": "2026-11-04",
+"last_checked": "2026-11-04",
+"misses": 0
+},
+"1241909999": {
+"name": "WorkOutDoors",
+"price": 8.99,
+"first_seen": "2026-11-04",
+"last_checked": "2026-11-04",
+"misses": 0
+},
+"754105884": {
+"name": "NightCap Camera: Long Exposure",
+"price": 2.99,
+"first_seen": "2026-11-04",
+"last_checked": "2026-11-04",
+"misses": 0
+},
+"6781631808": {
+"name": "NostalgicPod",
+"price": 4.99,
+"first_seen": "2026-11-04",
+"last_checked": "2026-11-04",
+"misses": 0
+},
+"1489470545": {
+"name": "iFacialMocap",
+"price": 7.99,
+"first_seen": "2026-11-04",
+"last_checked": "2026-11-04",
+"misses": 0
+},
+"1670762759": {
+"name": "Necrometer",
+"price": 9.99,
 "first_seen": "2026-11-04",
 "last_checked": "2026-11-04",
 "misses": 0
