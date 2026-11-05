@@ -1184,7 +1184,7 @@
 },
 "339407922": {
 "name": "iBend Pipe",
-"price": 4.99,
+"price": 5.99,
 "first_seen": "2026-11-04",
 "last_checked": "2026-11-05",
 "misses": 0
@@ -1298,6 +1298,69 @@
 "name": "Universalis",
 "price": 9.99,
 "first_seen": "2026-11-04",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"525299323": {
+"name": "Land Nav Assistant",
+"price": 2.99,
+"first_seen": "2026-11-05",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"1083801827": {
+"name": "Note Rush: Music Reading Game",
+"price": 8.99,
+"first_seen": "2026-11-05",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"1234266367": {
+"name": "iDrumTune Precision Drum Tuner",
+"price": 12.99,
+"first_seen": "2026-11-05",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"553145544": {
+"name": "FlashFace Full",
+"price": 3.99,
+"first_seen": "2026-11-05",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"363738376": {
+"name": "forScore",
+"price": 24.99,
+"first_seen": "2026-11-05",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"482303584": {
+"name": "PDG PROmote 2026+",
+"price": 34.99,
+"first_seen": "2026-11-05",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"1583878194": {
+"name": "Lineman's Reference - XFMR LAB",
+"price": 19.99,
+"first_seen": "2026-11-05",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"435352951": {
+"name": "PROmote - Army Study Guide",
+"price": 5.99,
+"first_seen": "2026-11-05",
+"last_checked": "2026-11-05",
+"misses": 0
+},
+"1470214600": {
+"name": "2Do: To Do List & Task Manager",
+"price": 9.99,
+"first_seen": "2026-11-05",
 "last_checked": "2026-11-05",
 "misses": 0
 }
