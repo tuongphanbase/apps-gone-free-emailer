@@ -490,8 +490,8 @@
 "misses": 0
 },
 "6825181273": {
-"name": "AltoPaint: Oil & Gouache",
-"price": 4.99,
+"name": "AltoPaint: Oil & Watercolor",
+"price": 5.99,
 "first_seen": "2026-10-30",
 "last_checked": "2026-11-06",
 "misses": 0
@@ -1339,6 +1339,62 @@
 "1135991142": {
 "name": "Prepware Remote Pilot UAS",
 "price": 4.99,
+"first_seen": "2026-11-06",
+"last_checked": "2026-11-06",
+"misses": 0
+},
+"6820145662": {
+"name": "PhotoUnlocked",
+"price": 0.99,
+"first_seen": "2026-11-06",
+"last_checked": "2026-11-06",
+"misses": 0
+},
+"793232740": {
+"name": "Cadrage Director's Viewfinder",
+"price": 19.99,
+"first_seen": "2026-11-06",
+"last_checked": "2026-11-06",
+"misses": 0
+},
+"6474207287": {
+"name": "Wagotabi: Learn Japanese",
+"price": 4.99,
+"first_seen": "2026-11-06",
+"last_checked": "2026-11-06",
+"misses": 0
+},
+"432791399": {
+"name": "Cloud Baby Monitor",
+"price": 6.99,
+"first_seen": "2026-11-06",
+"last_checked": "2026-11-06",
+"misses": 0
+},
+"6819227334": {
+"name": "ImpulseDie - Symbiotic Drum",
+"price": 4.99,
+"first_seen": "2026-11-06",
+"last_checked": "2026-11-06",
+"misses": 0
+},
+"6748243845": {
+"name": "Cozmo Robot",
+"price": 2.99,
+"first_seen": "2026-11-06",
+"last_checked": "2026-11-06",
+"misses": 0
+},
+"6814210373": {
+"name": "Auday - All-Day Watch Recorder",
+"price": 9.99,
+"first_seen": "2026-11-06",
+"last_checked": "2026-11-06",
+"misses": 0
+},
+"1564403188": {
+"name": "StbEmuTV (Pro)",
+"price": 8.99,
 "first_seen": "2026-11-06",
 "last_checked": "2026-11-06",
 "misses": 0
