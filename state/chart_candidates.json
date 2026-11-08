@@ -190,7 +190,7 @@
 },
 "6816896250": {
 "name": "Tiny Computers",
-"price": 3.99,
+"price": 4.99,
 "first_seen": "2026-10-23",
 "last_checked": "2026-11-08",
 "misses": 0
@@ -1360,6 +1360,48 @@
 "892542000": {
 "name": "Board Game Stats",
 "price": 5.99,
+"first_seen": "2026-11-08",
+"last_checked": "2026-11-08",
+"misses": 0
+},
+"6827308965": {
+"name": "Widezilla",
+"price": 0.99,
+"first_seen": "2026-11-08",
+"last_checked": "2026-11-08",
+"misses": 0
+},
+"1373567447": {
+"name": "Loon",
+"price": 7.99,
+"first_seen": "2026-11-08",
+"last_checked": "2026-11-08",
+"misses": 0
+},
+"972387337": {
+"name": "Scrivener",
+"price": 23.99,
+"first_seen": "2026-11-08",
+"last_checked": "2026-11-08",
+"misses": 0
+},
+"1360656789": {
+"name": "Ghost Science M3",
+"price": 10.99,
+"first_seen": "2026-11-08",
+"last_checked": "2026-11-08",
+"misses": 0
+},
+"443321291": {
+"name": "CCW – Concealed Carry 50 State",
+"price": 1.99,
+"first_seen": "2026-11-08",
+"last_checked": "2026-11-08",
+"misses": 0
+},
+"493157418": {
+"name": "Theory Lessons",
+"price": 2.99,
 "first_seen": "2026-11-08",
 "last_checked": "2026-11-08",
 "misses": 0
