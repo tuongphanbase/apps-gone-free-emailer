@@ -425,7 +425,7 @@
 },
 "1436832183": {
 "name": "Quill – Todo list",
-"notified_on": "2026-10-15"
+"notified_on": "2026-11-09"
 },
 "1531280366": {
 "name": "iAnimal: Animal Identifier AI",
@@ -1526,5 +1526,9 @@
 "930743975": {
 "name": "LÒMÒGRAPH",
 "notified_on": "2026-11-08"
+},
+"1018174074": {
+"name": "Pango Blocks: Logical Paths",
+"notified_on": "2026-11-09"
 }
 }
