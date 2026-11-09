@@ -22,7 +22,7 @@
 },
 "1539994807": {
 "name": "Pedi QuikCalc 5",
-"price": 5.99,
+"price": 6.99,
 "first_seen": "2026-10-20",
 "last_checked": "2026-11-09",
 "misses": 0
@@ -113,7 +113,7 @@
 },
 "6816896250": {
 "name": "Tiny Computers",
-"price": 3.99,
+"price": 2.99,
 "first_seen": "2026-10-23",
 "last_checked": "2026-11-09",
 "misses": 0
@@ -995,7 +995,7 @@
 },
 "6781631808": {
 "name": "NostalgicPod",
-"price": 4.99,
+"price": 3.99,
 "first_seen": "2026-11-04",
 "last_checked": "2026-11-09",
 "misses": 0
@@ -1346,6 +1346,41 @@
 "6824241131": {
 "name": "Midgar - Ambience Effect",
 "price": 9.99,
+"first_seen": "2026-11-09",
+"last_checked": "2026-11-09",
+"misses": 0
+},
+"6823045499": {
+"name": "IvyPod",
+"price": 2.99,
+"first_seen": "2026-11-09",
+"last_checked": "2026-11-09",
+"misses": 0
+},
+"6827445474": {
+"name": "FoldTick",
+"price": 0.99,
+"first_seen": "2026-11-09",
+"last_checked": "2026-11-09",
+"misses": 0
+},
+"1191380081": {
+"name": "PractiScore Competitor",
+"price": 9.99,
+"first_seen": "2026-11-09",
+"last_checked": "2026-11-09",
+"misses": 0
+},
+"6752807769": {
+"name": "DJ Rehab Mashups & Remixes",
+"price": 4.99,
+"first_seen": "2026-11-09",
+"last_checked": "2026-11-09",
+"misses": 0
+},
+"534302903": {
+"name": "Wise Words for Moms",
+"price": 1.99,
 "first_seen": "2026-11-09",
 "last_checked": "2026-11-09",
 "misses": 0
