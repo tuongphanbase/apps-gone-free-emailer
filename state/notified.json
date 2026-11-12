@@ -529,7 +529,7 @@
 },
 "1504024081": {
 "name": "Fast Forward Videos -Boomerang",
-"notified_on": "2026-10-16"
+"notified_on": "2026-11-12"
 },
 "604953874": {
 "name": "Thankful: Gratitude Journal",
@@ -1566,5 +1566,29 @@
 "704063907": {
 "name": "digiID: Document Wallet",
 "notified_on": "2026-11-11"
+},
+"896310133": {
+"name": "FCBFF",
+"notified_on": "2026-11-12"
+},
+"1073305840": {
+"name": "Sidecar MIDI Controller",
+"notified_on": "2026-11-12"
+},
+"1227298289": {
+"name": "Pixelmon Craft Go",
+"notified_on": "2026-11-12"
+},
+"1102035266": {
+"name": "PVE Remote for Proxmox",
+"notified_on": "2026-11-12"
+},
+"1477589079": {
+"name": "DoF: Depth of Field Calculator",
+"notified_on": "2026-11-12"
+},
+"6796545985": {
+"name": "Flight Lyfe",
+"notified_on": "2026-11-12"
 }
 }
