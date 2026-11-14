@@ -1429,7 +1429,7 @@
 },
 "6816896250": {
 "name": "Tiny Computers",
-"price": 0.99,
+"price": 2.99,
 "first_seen": "2026-11-14",
 "last_checked": "2026-11-14",
 "misses": 0
@@ -1458,6 +1458,27 @@
 "287217531": {
 "name": "FAAwait",
 "price": 0.99,
+"first_seen": "2026-11-14",
+"last_checked": "2026-11-14",
+"misses": 0
+},
+"6831618502": {
+"name": "Pretend Piano: Air Instruments",
+"price": 0.99,
+"first_seen": "2026-11-14",
+"last_checked": "2026-11-14",
+"misses": 0
+},
+"577628510": {
+"name": "TeamSpeak 3",
+"price": 0.99,
+"first_seen": "2026-11-14",
+"last_checked": "2026-11-14",
+"misses": 0
+},
+"1531679862": {
+"name": "GENKI Vocab for 3rd Ed.",
+"price": 6.99,
 "first_seen": "2026-11-14",
 "last_checked": "2026-11-14",
 "misses": 0
