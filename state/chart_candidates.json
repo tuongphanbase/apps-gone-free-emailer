@@ -57,7 +57,7 @@
 },
 "6818168418": {
 "name": "Flipcorder: Retro Camcorder",
-"price": 2.99,
+"price": 4.99,
 "first_seen": "2026-10-25",
 "last_checked": "2026-11-14",
 "misses": 0
@@ -1423,6 +1423,41 @@
 "378503081": {
 "name": "Groundwire: VoIP SIP Softphone",
 "price": 9.99,
+"first_seen": "2026-11-14",
+"last_checked": "2026-11-14",
+"misses": 0
+},
+"6816896250": {
+"name": "Tiny Computers",
+"price": 0.99,
+"first_seen": "2026-11-14",
+"last_checked": "2026-11-14",
+"misses": 0
+},
+"6829190945": {
+"name": "Roomy for Duo: Full Width",
+"price": 0.99,
+"first_seen": "2026-11-14",
+"last_checked": "2026-11-14",
+"misses": 0
+},
+"6833613428": {
+"name": "Clackity – Duo Flip Clock",
+"price": 2.99,
+"first_seen": "2026-11-14",
+"last_checked": "2026-11-14",
+"misses": 0
+},
+"6443996847": {
+"name": "Frame Crop – Art Mode",
+"price": 7.99,
+"first_seen": "2026-11-14",
+"last_checked": "2026-11-14",
+"misses": 0
+},
+"287217531": {
+"name": "FAAwait",
+"price": 0.99,
 "first_seen": "2026-11-14",
 "last_checked": "2026-11-14",
 "misses": 0
