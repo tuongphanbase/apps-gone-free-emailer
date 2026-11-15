@@ -613,7 +613,7 @@
 },
 "918925756": {
 "name": "iMonitor: System Monitor",
-"notified_on": "2026-10-17"
+"notified_on": "2026-11-15"
 },
 "6749265146": {
 "name": "Echoes of Vasteria",
@@ -725,7 +725,7 @@
 },
 "1299550731": {
 "name": "Microbooks®",
-"notified_on": "2026-10-17"
+"notified_on": "2026-11-15"
 },
 "1309377225": {
 "name": "bartender.live",
@@ -985,7 +985,7 @@
 },
 "1508720931": {
 "name": "Meditation by Soothing Pod",
-"notified_on": "2026-10-21"
+"notified_on": "2026-11-15"
 },
 "6740854452": {
 "name": "Idle Business Tycoon Games",
@@ -1641,6 +1641,22 @@
 },
 "6443659537": {
 "name": "Futhark: Runic Keyboard",
+"notified_on": "2026-11-15"
+},
+"1168458511": {
+"name": "A Course in Miracles Narrated",
+"notified_on": "2026-11-15"
+},
+"6743349595": {
+"name": "Godseeker II Dark Fantasy ARPG",
+"notified_on": "2026-11-15"
+},
+"1216949590": {
+"name": "iCPainter",
+"notified_on": "2026-11-15"
+},
+"1499417636": {
+"name": "Circle o Fifths: Guitar+Piano",
 "notified_on": "2026-11-15"
 }
 }
