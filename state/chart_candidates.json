@@ -7,7 +7,7 @@
 "misses": 0
 },
 "317435796": {
-"name": "Responder.ai: Crime Alerts",
+"name": "Danger Map: Live Crime & Alert",
 "price": 0.0,
 "first_seen": "2026-10-17",
 "last_checked": "2026-11-17",
@@ -1486,6 +1486,13 @@
 "407838198": {
 "name": "Stack the Countries®",
 "price": 2.99,
+"first_seen": "2026-11-17",
+"last_checked": "2026-11-17",
+"misses": 0
+},
+"6832405958": {
+"name": "Fingertip Instruments",
+"price": 0.99,
 "first_seen": "2026-11-17",
 "last_checked": "2026-11-17",
 "misses": 0
