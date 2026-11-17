@@ -1364,13 +1364,6 @@
 "last_checked": "2026-11-17",
 "misses": 0
 },
-"6831618502": {
-"name": "Pretend Piano: Air Instruments",
-"price": 0.99,
-"first_seen": "2026-11-14",
-"last_checked": "2026-11-17",
-"misses": 2
-},
 "577628510": {
 "name": "TeamSpeak 3",
 "price": 0.99,
@@ -1458,6 +1451,41 @@
 "6816018585": {
 "name": "Seconds - Filter",
 "price": 6.99,
+"first_seen": "2026-11-17",
+"last_checked": "2026-11-17",
+"misses": 0
+},
+"6761713992": {
+"name": "Offline Survival Kit",
+"price": 3.99,
+"first_seen": "2026-11-17",
+"last_checked": "2026-11-17",
+"misses": 0
+},
+"1124171099": {
+"name": "CheerCast",
+"price": 0.99,
+"first_seen": "2026-11-17",
+"last_checked": "2026-11-17",
+"misses": 0
+},
+"1443988620": {
+"name": "Quantumult X",
+"price": 9.99,
+"first_seen": "2026-11-17",
+"last_checked": "2026-11-17",
+"misses": 0
+},
+"6828347986": {
+"name": "Ripple Player",
+"price": 4.99,
+"first_seen": "2026-11-17",
+"last_checked": "2026-11-17",
+"misses": 0
+},
+"407838198": {
+"name": "Stack the Countries®",
+"price": 2.99,
 "first_seen": "2026-11-17",
 "last_checked": "2026-11-17",
 "misses": 0
