@@ -988,7 +988,7 @@
 },
 "6819150080": {
 "name": "Duo Aquarium",
-"price": 1.0,
+"price": 1.99,
 "first_seen": "2026-11-07",
 "last_checked": "2026-11-18",
 "misses": 0
@@ -1473,6 +1473,27 @@
 "name": "Fingertip Instruments",
 "price": 0.99,
 "first_seen": "2026-11-17",
+"last_checked": "2026-11-18",
+"misses": 0
+},
+"6470239695": {
+"name": "Ahoy! From Picardy",
+"price": 3.99,
+"first_seen": "2026-11-18",
+"last_checked": "2026-11-18",
+"misses": 0
+},
+"6759160117": {
+"name": "What Plane?",
+"price": 6.99,
+"first_seen": "2026-11-18",
+"last_checked": "2026-11-18",
+"misses": 0
+},
+"1048775759": {
+"name": "California Firearms Test",
+"price": 1.99,
+"first_seen": "2026-11-18",
 "last_checked": "2026-11-18",
 "misses": 0
 }
