@@ -1275,7 +1275,7 @@
 },
 "378503081": {
 "name": "Groundwire: VoIP SIP Softphone",
-"price": 9.99,
+"price": 1.79,
 "first_seen": "2026-11-14",
 "last_checked": "2026-11-20",
 "misses": 0
@@ -1549,6 +1549,13 @@
 "6829520007": {
 "name": "Berry eReader",
 "price": 3.99,
+"first_seen": "2026-11-20",
+"last_checked": "2026-11-20",
+"misses": 0
+},
+"975770717": {
+"name": "My Earthquake Alerts Pro",
+"price": 2.99,
 "first_seen": "2026-11-20",
 "last_checked": "2026-11-20",
 "misses": 0
