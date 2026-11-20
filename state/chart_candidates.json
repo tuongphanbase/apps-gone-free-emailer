@@ -1275,14 +1275,14 @@
 },
 "378503081": {
 "name": "Groundwire: VoIP SIP Softphone",
-"price": 1.79,
+"price": 9.99,
 "first_seen": "2026-11-14",
 "last_checked": "2026-11-20",
 "misses": 0
 },
 "6816896250": {
 "name": "Tiny Computers",
-"price": 2.99,
+"price": 3.99,
 "first_seen": "2026-11-14",
 "last_checked": "2026-11-20",
 "misses": 0
@@ -1521,6 +1521,34 @@
 "1326943979": {
 "name": "ABA Wizard",
 "price": 14.99,
+"first_seen": "2026-11-20",
+"last_checked": "2026-11-20",
+"misses": 0
+},
+"6805318319": {
+"name": "ROLLIE'S: 35mm Film Camera",
+"price": 6.99,
+"first_seen": "2026-11-20",
+"last_checked": "2026-11-20",
+"misses": 0
+},
+"6828728811": {
+"name": "Little Light: Daily Gospel",
+"price": 0.99,
+"first_seen": "2026-11-20",
+"last_checked": "2026-11-20",
+"misses": 0
+},
+"6835619709": {
+"name": "On Pace: Steps vs Average",
+"price": 0.99,
+"first_seen": "2026-11-20",
+"last_checked": "2026-11-20",
+"misses": 0
+},
+"6829520007": {
+"name": "Berry eReader",
+"price": 3.99,
 "first_seen": "2026-11-20",
 "last_checked": "2026-11-20",
 "misses": 0
