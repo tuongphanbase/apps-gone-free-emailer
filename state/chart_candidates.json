@@ -274,7 +274,7 @@
 },
 "904237743": {
 "name": "Things 3",
-"price": 9.99,
+"price": 6.99,
 "first_seen": "2026-11-04",
 "last_checked": "2026-11-22",
 "misses": 0
@@ -1577,6 +1577,13 @@
 "1600087840": {
 "name": "Spirit Contact Talker",
 "price": 7.99,
+"first_seen": "2026-11-22",
+"last_checked": "2026-11-22",
+"misses": 0
+},
+"388624839": {
+"name": "CamScanner + | OCR Scanner",
+"price": 0.99,
 "first_seen": "2026-11-22",
 "last_checked": "2026-11-22",
 "misses": 0
