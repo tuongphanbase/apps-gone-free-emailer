@@ -176,7 +176,7 @@
 },
 "432850619": {
 "name": "FL Studio Mobile",
-"price": 14.99,
+"price": 7.49,
 "first_seen": "2026-11-04",
 "last_checked": "2026-11-23",
 "misses": 0
@@ -918,7 +918,7 @@
 },
 "6827308965": {
 "name": "Widezilla Browser",
-"price": 0.99,
+"price": 0.49,
 "first_seen": "2026-11-08",
 "last_checked": "2026-11-23",
 "misses": 0
@@ -1065,7 +1065,7 @@
 },
 "6828383349": {
 "name": "DuoFridge",
-"price": 1.99,
+"price": 2.99,
 "first_seen": "2026-11-10",
 "last_checked": "2026-11-23",
 "misses": 0
@@ -1529,6 +1529,20 @@
 "name": "CamScanner + | OCR Scanner",
 "price": 0.99,
 "first_seen": "2026-11-22",
+"last_checked": "2026-11-23",
+"misses": 0
+},
+"6756866511": {
+"name": "IIWII: Film Simulation Camera",
+"price": 1.99,
+"first_seen": "2026-11-23",
+"last_checked": "2026-11-23",
+"misses": 0
+},
+"6738783142": {
+"name": "Knot IQ: 3D Knot Tying",
+"price": 4.99,
+"first_seen": "2026-11-23",
 "last_checked": "2026-11-23",
 "misses": 0
 }
