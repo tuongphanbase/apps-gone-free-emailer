@@ -1449,7 +1449,7 @@
 "misses": 0
 },
 "6818644922": {
-"name": "TV Jr.",
+"name": "TV Jr. – Live TV on HomeView",
 "price": 4.99,
 "first_seen": "2026-11-22",
 "last_checked": "2026-11-24",
@@ -1542,6 +1542,20 @@
 "6814971826": {
 "name": "SharpStop Depth of Field Calc",
 "price": 5.99,
+"first_seen": "2026-11-24",
+"last_checked": "2026-11-24",
+"misses": 0
+},
+"6777525563": {
+"name": "ClerkOne 2027",
+"price": 149.0,
+"first_seen": "2026-11-24",
+"last_checked": "2026-11-24",
+"misses": 0
+},
+"1447768809": {
+"name": "Marvis Pro",
+"price": 4.99,
 "first_seen": "2026-11-24",
 "last_checked": "2026-11-24",
 "misses": 0
