@@ -722,7 +722,7 @@
 },
 "1033342465": {
 "name": "Just Press Record",
-"price": 6.99,
+"price": 3.99,
 "first_seen": "2026-11-05",
 "last_checked": "2026-11-25",
 "misses": 0
@@ -1556,6 +1556,27 @@
 "1440996640": {
 "name": "Flat Earth Sun, Moon & Zodiac",
 "price": 5.99,
+"first_seen": "2026-11-25",
+"last_checked": "2026-11-25",
+"misses": 0
+},
+"1672085276": {
+"name": "Aiko",
+"price": 19.0,
+"first_seen": "2026-11-25",
+"last_checked": "2026-11-25",
+"misses": 0
+},
+"307219387": {
+"name": "BrainWave: 40 Binaural Series™",
+"price": 5.99,
+"first_seen": "2026-11-25",
+"last_checked": "2026-11-25",
+"misses": 0
+},
+"1304177471": {
+"name": "Superimpose X",
+"price": 4.99,
 "first_seen": "2026-11-25",
 "last_checked": "2026-11-25",
 "misses": 0
