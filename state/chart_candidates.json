@@ -1247,7 +1247,7 @@
 },
 "6461348120": {
 "name": "R8 Companion",
-"price": 9.99,
+"price": 7.99,
 "first_seen": "2026-11-16",
 "last_checked": "2026-11-25",
 "misses": 0
@@ -1577,6 +1577,20 @@
 "1304177471": {
 "name": "Superimpose X",
 "price": 4.99,
+"first_seen": "2026-11-25",
+"last_checked": "2026-11-25",
+"misses": 0
+},
+"1589391989": {
+"name": "Mapper for Safari",
+"price": 1.99,
+"first_seen": "2026-11-25",
+"last_checked": "2026-11-25",
+"misses": 0
+},
+"6820895155": {
+"name": "Sting - Sequencing Instrument",
+"price": 18.0,
 "first_seen": "2026-11-25",
 "last_checked": "2026-11-25",
 "misses": 0
