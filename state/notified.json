@@ -365,7 +365,7 @@
 },
 "1476267616": {
 "name": "iProTV: IPTV Player",
-"notified_on": "2026-10-15"
+"notified_on": "2026-11-27"
 },
 "1593344126": {
 "name": "Lyt WorkShift",
@@ -1830,5 +1830,13 @@
 "1464650123": {
 "name": "Signos del Caracol",
 "notified_on": "2026-11-26"
+},
+"557128343": {
+"name": "Save The Pencil 2",
+"notified_on": "2026-11-27"
+},
+"999497481": {
+"name": "FlightReady E6B",
+"notified_on": "2026-11-27"
 }
 }
